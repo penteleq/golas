@@ -1,9 +1,12 @@
 {
   "name": "golas",
   "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
-  "keywords": [],
+  "version": "0.0.1",
+  "description": "Simplified, brilliant lightweight shape dayplanner",
+  "keywords": [
+    "dayplanner",
+    "sails"
+  ],
   "dependencies": {
     "ejs": "2.3.4",
     "grunt": "0.4.5",
@@ -19,9 +22,17 @@
     "grunt-sails-linker": "~0.10.1",
     "grunt-sync": "0.2.4",
     "include-all": "~0.1.6",
+    "lodash": "^4.11.2",
     "rc": "1.0.1",
+    "react": "^15.0.2",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.0.1",
     "sails": "~0.12.3",
-    "sails-disk": "~0.10.9"
+    "sails-disk": "~0.10.9",
+    "sails-hook-autoreload": "^0.13.1",
+    "winston": "^2.2.0",
+    "winston-daily-rotate-file": "^1.0.1"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -30,8 +41,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/golas.git"
+    "url": "git://github.com/penteleq/golas"
   },
-  "author": "anonymous node/sails user",
-  "license": ""
+  "author": "Rafał Łyczkowski",
+  "license": "MIT"
 }
