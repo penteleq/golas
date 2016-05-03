@@ -21,12 +21,12 @@ var customLogger = new (winston.Logger)({
             prettyPrint:  true,
             timestamp:    true,
             colorize:     false,
-            level:        'silly'
+            level:        'debug'
         }),
         new (winston.transports.Console)({
           colorize:   true,
           showLevel:  true,
-          level:      'silly'
+          level:      'debug'
         }),
     ],
 });
@@ -45,7 +45,7 @@ module.exports.log = {
   *                                                                          *
   ***************************************************************************/
 
-  // level: 'info',
+  level: 'silly',
   colors: false,  // To get clean logs without prefixes or color codings
   custom: customLogger
 
