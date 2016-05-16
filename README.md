@@ -1,5 +1,5 @@
 
-https://codeship.com/projects/152181/status?branch=master
+[![Build Status](https://travis-ci.org/penteleq/golas.svg?branch=dev-test)](https://travis-ci.org/penteleq/golas)
 
 # golas
 
